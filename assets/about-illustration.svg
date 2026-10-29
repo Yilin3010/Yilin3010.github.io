@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
+<title id="title">Matcha, café days and creative studies</title><desc id="desc">A matcha cup, neighbourhood café, school books, interface wireframes and HTML, CSS and JavaScript symbols arranged as a personal illustrated collage.</desc>
+<defs><pattern id="dots" width="19" height="19" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#b7c1a5" opacity=".55"/></pattern></defs>
+<path d="M70 101C159 23 321 51 434 102s152 189 97 314-163 224-302 177S-27 416 27 281 6 157 70 101" fill="#e8ebdd"/>
+<circle cx="473" cy="109" r="62" fill="url(#dots)"/><circle cx="99" cy="512" r="59" fill="url(#dots)"/>
+<g fill="none" stroke="#a6b393" stroke-width="2" stroke-dasharray="5 8"><path d="M189 156Q315 14 426 156M477 300Q579 431 402 523M145 484Q10 344 103 233"/></g>
+<!-- Café storefront -->
+<g transform="translate(44 98) rotate(-7 100 100)" stroke="#45583f" stroke-width="2.5" stroke-linejoin="round">
+<rect x="4" y="27" width="192" height="176" rx="9" fill="#faf6e9"/><path d="M-7 62h214l-17-49H10z" fill="#bac7a4"/>
+<path d="M25 14l-7 48m48-48-3 48m45-48v48m40-48 4 48m31-48 7 48" fill="none"/>
+<path d="M-7 62v17q18 19 36 0 18 19 36 0 18 19 36 0 18 19 36 0 18 19 36 0 18 19 34 0V62" fill="#d7dfc4"/>
+<rect x="23" y="106" width="76" height="69" rx="3" fill="#dce7df"/><path d="M61 107v68m-37-34h74"/>
+<rect x="123" y="100" width="50" height="103" rx="3" fill="#e5d6bc"/><circle cx="161" cy="152" r="3" fill="#45583f"/>
+<rect x="55" y="-11" width="95" height="28" rx="7" fill="#faf6e9"/><text x="103" y="9" text-anchor="middle" stroke="none" fill="#45583f" font-family="Georgia,serif" font-size="18">café days</text>
+<path d="M28 202v21m142-21v21M9 223h182"/>
+</g>
+<!-- Laptop and wireframes -->
+<g transform="translate(285 195) rotate(8 115 100)" stroke="#45583f" stroke-width="2.5" stroke-linejoin="round">
+<rect x="3" y="0" width="223" height="151" rx="12" fill="#73856a"/><rect x="15" y="13" width="199" height="124" rx="4" fill="#faf8ef"/>
+<path d="M-14 153h257l16 20q-125 19-286 0z" fill="#c6cfb6"/><path d="M84 153h66l6 8H79z" fill="#eef0e3"/>
+<path d="M25 37h178" stroke="#d5dcca"/><circle cx="29" cy="26" r="2" fill="#bc9b85"/><circle cx="39" cy="26" r="2" fill="#9fac8e"/>
+<rect x="29" y="49" width="66" height="73" rx="4" fill="#e4e9d8"/><circle cx="62" cy="69" r="10" fill="#b2bf9b"/><path d="M43 89h38m-38 10h27m-27 10h33" stroke="#9ba98b"/>
+<rect x="109" y="50" width="87" height="25" rx="4" fill="#ded0b8"/><path d="M110 88h84m-84 10h61m-61 10h76" stroke="#9ba98b"/>
+<text x="143" y="126" text-anchor="middle" stroke="none" fill="#45583f" font-family="Arial,sans-serif" font-size="12">UI / UX</text>
+</g>
+<!-- Matcha cup -->
+<g transform="translate(123 333) rotate(-8 65 85)" stroke="#45583f" stroke-width="2.5" stroke-linejoin="round">
+<ellipse cx="66" cy="157" rx="83" ry="15" fill="#d7c7ac"/><path d="M121 40h21q36 5 19 43-12 22-39 14" fill="#f9f4e6"/>
+<path d="M6 39h122l-11 86q-44 37-99 0z" fill="#f9f4e6"/><ellipse cx="67" cy="40" rx="61" ry="19" fill="#9fb780"/><ellipse cx="67" cy="40" rx="43" ry="11" fill="#b9ce99" stroke="none"/>
+<path d="M39 40q28-23 51 0-25 17-51 0m26-4v14" fill="none" stroke="#f2f1d9" stroke-width="3"/>
+<path d="M45 2q-12-16 0-29m28 27q-12-16 0-29m25 31q-12-16 0-29" fill="none" stroke="#a7b591"/>
+<text x="66" y="103" text-anchor="middle" stroke="none" fill="#62784f" font-family="Georgia,serif" font-size="18">matcha</text>
+</g>
+<!-- School notebook and books -->
+<g transform="translate(298 433) rotate(5 100 70)" stroke="#45583f" stroke-width="2.5" stroke-linejoin="round">
+<rect x="0" y="78" width="207" height="29" rx="5" fill="#b5c29b"/><path d="M12 86h179m-179 11h179" stroke="#eef0e4"/>
+<rect x="12" y="46" width="185" height="32" rx="5" fill="#dfcdb0"/><path d="M25 56h155m-155 12h155" stroke="#f8f1e5"/>
+<rect x="24" y="-44" width="134" height="91" rx="7" fill="#f5f0df"/><path d="M43-43v89" stroke="#afbc98"/>
+<path d="M33-29h19m-19 17h19m-19 17h19m-19 17h19"/>
+<path d="M80-7l26-14 27 14-27 14z" fill="#b5c29b"/><path d="M88-3v14q17 14 35 0V-3m10-4v23" fill="none"/>
+<text x="105" y="34" text-anchor="middle" stroke="none" fill="#45583f" font-family="Arial,sans-serif" font-size="12">always learning</text>
+</g>
+<!-- Code stickers -->
+<g font-family="Arial,sans-serif" font-weight="bold" fill="#45583f" stroke="#9eac8d" stroke-width="1.5">
+<g transform="translate(310 93) rotate(9)"><rect width="80" height="49" rx="12" fill="#f6efdf"/><text x="40" y="31" text-anchor="middle" stroke="none" font-size="17">&lt;HTML&gt;</text></g>
+<g transform="translate(475 405) rotate(10)"><rect width="73" height="48" rx="12" fill="#d5e0c5"/><text x="36" y="30" text-anchor="middle" stroke="none" font-size="18">{ CSS }</text></g>
+<g transform="translate(235 533) rotate(-10)"><rect width="55" height="48" rx="10" fill="#e5d8ad"/><text x="27" y="31" text-anchor="middle" stroke="none" font-size="23">JS</text></g>
+</g>
+<g fill="#8b9b77"><path d="M273 284l4 13 13 4-13 4-4 13-4-13-13-4 13-4z"/><path d="M493 164l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></g>
+</svg>

@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+Captioned screen walkthrough • actual local application captures. Separate demo account and database. This is a sequence of screen captures, not a continuous mouse recording.
+
+00:00:08.000 --> 00:00:15.000
+The login screen switches to registration. Registration and sign-in were exercised with a disposable local demo account.
+
+00:00:15.000 --> 00:00:22.000
+Enter a name and choose a pet type. Mochi is a cat; new pets start with happiness, health and grooming at 10.
+
+00:00:22.000 --> 00:00:29.000
+The overview combines account care points, total pets, average statistics, pet cards and shortcuts to common actions.
+
+00:00:29.000 --> 00:00:35.000
+The dedicated pet list shows each pet, its statistics, daily allowance and care controls.
+
+00:00:35.000 --> 00:00:42.000
+A real Feed action raised happiness from 10 to 20 and health from 10 to 15. Remaining daily actions fell from 3 to 2.
+
+00:00:42.000 --> 00:00:49.000
+A real Groom action raised happiness to 25 and grooming to 20, with one daily action remaining.
+
+00:00:49.000 --> 00:00:56.000
+After a third action, the allowance reached zero. A fourth attempt was blocked with a come-back-tomorrow message.
+
+00:00:56.000 --> 00:01:04.000
+The in-app guide explains feeding, grooming, stat-based bonuses, three daily actions, care rewards and rank thresholds. Guide text reviewed; browser alert is not shown here.
+
+00:01:04.000 --> 00:01:10.000
+The dashboard accepts a pet-name search. Searching Mochi retained the matching pet card.
+
+00:01:10.000 --> 00:01:19.000
+For this test only: Mochi was set to 75 happiness / 80 health / 80 grooming, with yesterday’s action date. This is not ordinary new-pet progression.
+
+00:01:19.000 --> 00:01:27.000
+A real Feed action produced 90 / 85 / 80, a Well Cared For badge and +10 Care Points. Yesterday’s allowance reset, leaving 2 actions after feeding.
+
+00:01:27.000 --> 00:01:35.000
+The refreshed profile showed 10 Care Points and Caring Owner. Higher rank thresholds are 30 for Pet Lover and 50 for Pet Care Expert.
+
+00:01:35.000 --> 00:01:41.000
+Settings provides account-name editing, appearance choices and an account-deletion control.
+
+00:01:41.000 --> 00:01:48.000
+The Dark control was exercised. The application changes the settings page’s colours; the Light control restores the original appearance.
+
+00:01:48.000 --> 00:01:55.000
+Saving an edited demo username returned “Username updated successfully!” The profile subsequently displayed the changed name.
+
+00:01:55.000 --> 00:02:04.000
+Pet deletion requests confirmation. Account deletion is offered in the Danger Zone. These deletion controls were not executed in this walkthrough; logout navigation was not verified.
+
+00:02:04.000 --> 00:02:12.000
+Demonstrated: accounts, pet creation, dashboard, list, feed, groom, action limit, search, rewards, rank, themes and username changes. Deletion/logout need a separate verified capture.
