@@ -1,0 +1,133 @@
+body {
+    background-color: #e6f2ff;
+  min-height: 100vh;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+}
+
+main {
+  padding: 20px; /* Add 20px padding inside main content */
+  max-width: 800px; /* Limit main content width to 800px */
+  margin: auto; /* Center main content horizontally */
+}
+footer {
+  background-color: #f0e5d8; /* Set footer background to a soft beige */
+  padding: 10px; /* Add 10px padding inside footer */
+  text-align: center; /* Center text horizontally in footer */
+  border-top: 2px solid #d1c6b8; /* Add soft border line at top of footer */
+}
+.soft-hero {
+  background: linear-gradient(to right, #e6f0ff, #ffffff); /* Create a gradient background from light blue to white */
+}
+
+.bg-soft-grey {
+  background-color: #f9f9f9; /* Set a very light grey background */
+}
+.card-grid {
+  display: grid; /* Use CSS grid layout for card container */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Create columns that fit cards minimum 250px wide */
+  gap: 20px; /* Set 20px gap between grid items */
+  width: 100%; /* Card grid takes full container width */
+  max-width: 900px; /* Limit max width to 900px */
+}
+
+.card {
+  background-color: #fff; /* White background for each card */
+  border: 2px solid #d1c6b8; /* Soft beige border around card */
+  padding: 20px; /* Padding inside each card */
+  border-radius: 10px; /* Rounded corners with 10px radius */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* Soft shadow below card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animate transform and shadow smoothly over 0.3s */
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03); /* On hover, lift card up and slightly enlarge */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Darker, bigger shadow on hover */
+  cursor: pointer; /* Change mouse cursor to pointer to indicate clickable */
+}
+
+.card p {
+  color: #555; /* Medium grey text for card paragraph */
+  line-height: 1.4; /* Set line height for better readability */
+}
+
+/* Single card style */
+.card {
+  background-color: #ffffff; /* White background */
+  border: 2px solid #87CEFA;  /* Light blue border */
+  border-radius: 12px; /* Slightly more rounded corners */
+  padding: 20px; /* Inner spacing */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle drop shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animate transform and shadow */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Mouse hover animation effect */
+.card:hover {
+  transform: translateY(-8px); /* Lift card up */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Bigger shadow */
+}
+
+/* Card image */
+.card img {
+  width: 100%; /* Image fills card width */
+  height: auto; /* Height auto to maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners on images */
+  margin-bottom: 15px; /* Space below image */
+  filter: brightness(98%); /* Slightly dim image */
+  transition: filter 0.3s ease; /* Smooth brightness transition */
+}
+
+.card img:hover {
+  filter: brightness(105%); /* Brighten image on hover */
+}
+
+/* Card title */
+.card h5 {
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 10px; /* Space below title */
+  color: #004080; /* Dark blue text */
+  font-weight: 600; /* Semi-bold font */
+}
+
+/* Card text */
+.card p {
+  margin: 0; /* Remove margins */
+  color: #333333; /* Dark grey text */
+  line-height: 1.4; /* Comfortable line spacing */
+  font-size: 0.95rem; /* Slightly smaller font size */
+}
+.p-4.shadow.rounded.bg-white {
+  transition: transform 0.3s ease; /* Smooth transform */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+.p-4.shadow.rounded.bg-white:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+}
+.p-4.shadow.rounded.bg-light {
+  transition: transform 0.3s ease; /* Smooth transform */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.p-4.shadow.rounded.bg-light:hover {
+  transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Hover shadow */
+}
+.hover-zoom:hover {
+  transform: scale(1.05); /* Slight zoom in */
+  filter: brightness(110%); /* Brighten */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for zoom and brightness */
+}
