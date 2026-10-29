@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Menu",
+    "text": "\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 1",
+    "text": "Select an option: 1\n\nRetail Transaction Data (First 5 sorted by Customer ID)\nCustomer ID\tPrice\tPayment Method\tTotal Amount\n109318\t80.07984415\tCash\t455.8627638\n121413\t93.18851246\tCash\t626.0304837\n579675\t31.52881648\tCash\t212.0156509\n799826\t98.88021828\tPayPal\t461.3437694\n993229\t75.19522942\tCash\t258.3065464\n\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 2",
+    "text": "Select an option: 2\n\nAverage Total Amount by Product Category:\nBooks Average Amount: $250.00\nClothing Average Amount: $247.67\nElectronics Average Amount: $247.97\nHome Decor Average Amount: $247.70\n\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 3",
+    "text": "Select an option: 3\n\nAvailable payment methods:\n- Cash\n- Credit Card\n- Debit Card\n- PayPal\n\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 4",
+    "text": "Select an option: 4\n\nAvailable payment methods:\n1. Cash\n2. Credit Card\n3. Debit Card\n4. PayPal\n\nSelect payment method number (1-4): 1\n\nTop 5 Records (Sorted by Total Amount Desc)\nCustomer ID\tPrice\tPayment Method\tTotal Amount\n55183\t99.6441613\tCash\t892.253248\n388796\t99.50728273\tCash\t892.2401536\n957063\t99.54371522\tCash\t890.8217507\n701304\t98.62602691\tCash\t886.0287759\n450508\t99.6264141\tCash\t884.4989419\n\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 5",
+    "text": "Select an option: 5\nHome Decor : $896.14\n\nPlease select an option（1-6）:\n1. First 5 records of the retail transaction data sorted by customer ID (ascending order)\n2. Display average total amount for each product category\n3. Display payment methods in the retail transaction data sorted in ascending order\n4. User can query and view the Retail Transaction Data by payment method\n5. Display the product category with the highest total amount\n6. Exit\n        "
+  },
+  {
+    "title": "Menu option 6",
+    "text": "Select an option: 6\nThank you!"
+  }
+]
