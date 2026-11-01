@@ -1,8 +1,8 @@
 (() => {
- const links=[...document.querySelectorAll('.case-gallery figure a')];
+ const links=[...document.querySelectorAll('.case-gallery figure a, .personal-carousel .photo-slide a')];
  if(!links.length)return;
  const items=links.map(link=>({src:link.href,caption:link.closest('figure').querySelector('figcaption')?.textContent||link.querySelector('img').alt}));
- const viewer=document.createElement('dialog');viewer.className='image-viewer';viewer.setAttribute('aria-label','Project image viewer');
+ const viewer=document.createElement('dialog');viewer.className='image-viewer';viewer.setAttribute('aria-label',document.querySelector('.personal-carousel')?'Personal photo viewer':'Project image viewer');
  viewer.innerHTML=`<div class="viewer-toolbar"><span class="viewer-count" aria-live="polite"></span><div class="viewer-actions"><button type="button" data-action="out" aria-label="Zoom out">−</button><button type="button" data-action="reset" aria-label="Reset zoom">100%</button><button type="button" data-action="in" aria-label="Zoom in">+</button><button type="button" data-action="close" aria-label="Close image viewer">×</button></div></div><div class="viewer-stage" tabindex="0" aria-label="Image area. Scroll to inspect a zoomed image."><img class="viewer-image" alt=""></div><div class="viewer-bottom"><button type="button" data-action="previous" aria-label="Previous image">←</button><p class="viewer-caption" aria-live="polite"></p><button type="button" data-action="next" aria-label="Next image">→</button></div><p class="viewer-hint">← → Browse · + − Zoom · 0 Reset · Esc Close</p>`;
  document.body.append(viewer);
  const image=viewer.querySelector('.viewer-image'),stage=viewer.querySelector('.viewer-stage'),zoomButton=viewer.querySelector('[data-action="reset"]');
